@@ -13,7 +13,7 @@ const renderSignal = (signalColor) => {
 
 class TrafficSignal extends Component {
   render() {
-    const { color } = this.context.signal;
+    const { color } = this.context;
     const { changeSignal } = this.context;
     return (
       <div>
